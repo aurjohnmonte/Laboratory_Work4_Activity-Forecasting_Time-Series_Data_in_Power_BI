@@ -1,12 +1,10 @@
 <h1 align="center">Laboratory Work 4 Activity | Forecasting</h1>
 <h3 align="center">Time-Series Data in Power BI</h3>
 
-<p align="center">
-  <b>Name:</b> [Your Full Name] <br>
-  <b>Course/Year/Section:</b> [Your Course, Year, Section] <br>
-  <b>Instructor:</b> [Instructor Name] <br>
-  <b>Date Submitted:</b> [Date]
-</p>
+<h3>My PowerBI File</h3>
+<a href="https://drive.google.com/file/d/16ki4pJyWzB9TzMqWcoRiX8W1mYtTavvN/view?usp=sharing">Click here</a>
+<h3>My new 50 rows dataset</h3>
+<a href="https://drive.google.com/file/d/17Tuu7ntBcs6wOc3pumMw6fqCk2wnOJ7m/view?usp=sharing">Click here</a>
 
 <hr>
 
@@ -29,12 +27,16 @@ objective of the laboratory activity.
 <ul>
   <li><b>Original Dataset:</b> <code>tourism-data.csv</code></li>
   <li><b>Modified Dataset:</b> <code>tourism_dataset_50_rows.csv</code> (or your Part 2 dataset filename)</li>
-  <li><b>Power BI File:</b> <code>[your_file_name].pbix</code></li>
+  <li><b>Power BI File:</b> <code>monte_IS107_LW4.pbix</code></li>
 </ul>
 
 <hr>
 
 <h2>📖 Part 1: Replicating the Tourism Data Forecast</h2>
+
+<p align="center">
+  <img src="images/step1.png" alt="Part 1 Forecast" width="800">
+</p>
 
 <h3>Step 1: Download the Sample Dataset</h3>
 <p>
@@ -49,6 +51,11 @@ The preview was checked to ensure the data loaded correctly before clicking <b>L
 </p>
 
 <h3>Step 3: Create a Line Chart for Yearly Data</h3>
+
+<p align="center">
+  <img src="images/3.png" alt="Part 1 Forecast" width="800">
+</p>
+
 <p>
 A <b>Line Chart</b> was created in the report canvas. The following fields were assigned:
 </p>
@@ -61,12 +68,22 @@ The date hierarchy was adjusted so that only the <b>Year</b> level was used in t
 </p>
 
 <h3>Step 4: Add a Trend Line</h3>
+
+<p align="center">
+  <img src="images/4.png" alt="Part 1 Forecast" width="800">
+</p>
+
 <p>
 With the line chart selected, the <b>Analytics</b> pane was opened and a <b>Trend line</b> was added.
 This made it easier to observe the general direction of tourist activity over time.
 </p>
 
 <h3>Step 5: Add Forecasting</h3>
+
+<p align="center">
+  <img src="images/5.png" alt="Part 1 Forecast" width="800">
+</p>
+
 <p>
 Forecasting was added from the <b>Analytics</b> pane of the line chart. A forecast line appeared on the chart,
 allowing future values to be predicted based on the historical pattern of the data.
@@ -88,14 +105,6 @@ A relatively narrow confidence interval suggests that the forecast is more stabl
 while a wider interval suggests greater uncertainty.
 </p>
 
-<h3>📷 Screenshot for Part 1</h3>
-<p>
-Insert your screenshot below:
-</p>
-<p>
-  <img src="./screenshots/part1-forecast.png" alt="Part 1 Tourism Forecast" width="800">
-</p>
-
 <h3>📝 Analysis for Part 1</h3>
 <p>
 The tourism dataset showed a time-based pattern that Power BI was able to model using its built-in forecasting feature.
@@ -107,6 +116,10 @@ for the given data pattern.
 <hr>
 
 <h2>📖 Part 2: Enhancement - Forecasting with Imperfect Data</h2>
+
+<img width="816" height="439" alt="image" src="https://github.com/user-attachments/assets/b66471da-100e-4026-9de3-129db5f27404" />
+<img width="1915" height="991" alt="image" src="https://github.com/user-attachments/assets/242d5026-64e4-472e-9cb2-96a781066177" />
+
 
 <h3>Step 8: Prepare a New Dataset</h3>
 <p>
@@ -133,6 +146,9 @@ The appropriate time hierarchy was chosen depending on the granularity of the da
 </p>
 
 <h3>Step 11: Add and Configure the Forecast</h3>
+
+<img width="627" height="849" alt="image" src="https://github.com/user-attachments/assets/abb4ebf1-f55c-4d67-ab35-fbc89645aa53" />
+
 <p>
 The forecast feature was applied again in the Analytics pane. Different settings were tested to observe how the visualization changed.
 The following experiments were performed:
@@ -155,10 +171,7 @@ The covered time period depends on the final date range of the modified dataset.
 
 <h4>2. Forecast Visualization</h4>
 <p>
-Insert your screenshot below:
-</p>
-<p>
-  <img src="./screenshots/part2-forecast.png" alt="Part 2 Forecast with Imperfect Data" width="800">
+  <img width="1915" height="994" alt="image" src="https://github.com/user-attachments/assets/4c7be904-238f-4d2e-8c1e-ac619fe5b633" />
 </p>
 
 <h4>3. Interpretation of Forecast</h4>
@@ -212,18 +225,6 @@ because these can reduce forecast reliability and widen the confidence interval.
     <td>Forecast became more sensitive to disruptions and uncertainty increased</td>
   </tr>
 </table>
-
-<hr>
-
-<h2>📎 Submission Files</h2>
-<ul>
-  <li><code>README.md</code></li>
-  <li><code>[your_powerbi_file].pbix</code></li>
-  <li><code>tourism-data.csv</code></li>
-  <li><code>tourism_dataset_50_rows.csv</code></li>
-  <li><code>/screenshots/part1-forecast.png</code></li>
-  <li><code>/screenshots/part2-forecast.png</code></li>
-</ul>
 
 <hr>
 
